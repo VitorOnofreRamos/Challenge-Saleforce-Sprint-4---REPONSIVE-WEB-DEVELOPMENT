@@ -35,21 +35,6 @@ const LoginForms = () => {
         });
     };
 
-  // Função para enviar os dados do formulário
-  const send = (event: any) => {
-    event.preventDefault(); // Previne o comportamento padrão de recarga da página
-    axios.post('http://localhost:8082/login', {
-      username: username,
-      password: password,
-    }).then((response) => {
-      console.log('Login realizado com sucesso:', response.data);
-      // Redireciona para outra página após o login bem-sucedido
-      window.location.href = '/Products'; // Ajuste conforme necessário
-    }).catch((error) => {
-      console.error('Erro ao realizar login:', error);
-      // Trate o erro conforme necessário, por exemplo, mostrando uma mensagem de erro
-    });
-  };
     return(
         <>
         <div className='flex form'>
@@ -60,7 +45,7 @@ const LoginForms = () => {
                 <label htmlFor='password'>Senha</label>
                 <input className="input" type="password" name="password" placeholder=" Digite sua senha aqui" value={password} onChange={handleInputChange}/>
                 
-                <input type="submit" className="login-btn" onClick={send} value="Login" />
+                <input type="submit" className="login-btn" value="Login" />
             </form>
         </div>
         </>
