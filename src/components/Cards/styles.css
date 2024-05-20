@@ -75,6 +75,10 @@ section div > img{
     margin-bottom: 2rem;
 }
 
+.login_card > :last-child .input{
+    padding-left: 1rem;
+}
+
 .product_card{
     flex-direction: column;
 }
