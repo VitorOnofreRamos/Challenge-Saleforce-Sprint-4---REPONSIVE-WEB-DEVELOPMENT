@@ -43,3 +43,18 @@ O projeto está estruturado de forma modular, utilizando componentes React para 
 1. Clone o repositório do projeto.
 2. Instale as dependências executando `npm install` ou `npm i`.
 3. Execute o servidor local com `npm run dev`.
+
+### Contribuição
+
+As contribuições são bem-vindas. Para contribuir, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch com suas alterações.
+3. Faça um pull request.
+
+### Integrantes
+
+Maurício Pereira     - Github: https://github.com/Mauricio-Pereira  
+Luis Otávio Leitão   - Github: https://github.com/Luiz1614  
+Vitor Onofre Ramos   - Github: https://github.com/VitorOnofreRamos
+```
