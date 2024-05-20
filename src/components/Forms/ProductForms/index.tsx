@@ -4,7 +4,6 @@ import axios from 'axios';
 import { useState } from 'react';
 
 import { Props } from "../interface";
-import Button from '../../Button';
 import '../styles.css';
 
 const ProductForms = (props: Props) => {

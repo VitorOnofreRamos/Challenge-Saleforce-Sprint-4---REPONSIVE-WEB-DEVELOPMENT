@@ -3,7 +3,6 @@
 import axios from 'axios';
 import { useState } from 'react';
 
-import Button from '../../Button';
 import '../styles.css';
 
 const LoginForms = () => {
@@ -40,12 +39,12 @@ const LoginForms = () => {
         <div className='flex form'>
             <form className="form-login" onSubmit={handleSubmit}>
                 <label htmlFor='username'>Nome do usuário</label>
-                <input className="input" type="text" name="username" placeholder="email@email.com" value={username} onChange={handleInputChange}/>
+                <input className="input" type="text" name="username" placeholder=" email@email.com" value={username} onChange={handleInputChange}/>
                 
                 <label htmlFor='password'>Senha</label>
                 <input className="input" type="password" name="password" placeholder=" Digite sua senha aqui" value={password} onChange={handleInputChange}/>
                 
-                <input type="submit" className="login-btn" value="Login" />
+                <input type="submit" className="login-btn" value="Login"/>
             </form>
         </div>
         </>
