@@ -1,6 +1,6 @@
 export interface Props {
     text: string;
-    link: string;
+    link?: string;
     style: string;
     type?: string;
 };
