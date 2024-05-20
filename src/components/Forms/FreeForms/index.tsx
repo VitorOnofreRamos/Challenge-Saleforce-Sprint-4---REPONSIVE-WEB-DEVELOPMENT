@@ -111,8 +111,8 @@ const FreeForms = (props: Props) => {
              <label htmlFor="pais"></label>
              <input type="text" id="pais" name="pais" placeholder="Pais"/>
    
-             <label htmlFor="nomeUsuario"></label>
-             <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Nome de usuario" value={usuario} onChange={handleChange}/>
+             <label htmlFor="usuario"></label>
+             <input type="text" id="usuario" name="usuario" placeholder="Nome de usuario" value={usuario} onChange={handleChange}/>
    
              <label htmlFor="senha"></label>
              <input type="password" id="senha" name="senha" placeholder="Senha" value={senha} onChange={handleChange}/>
