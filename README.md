@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README para Projeto Final - Responsive Web Development
 
-## Getting Started
+## Título do Projeto: Nome do Seu Projeto
 
-First, run the development server:
+### Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este projeto é o resultado da quarta entrega da disciplina de Responsive Web Development, focada na construção de uma aplicação web completa utilizando React e TypeScript. O objetivo principal deste projeto é demonstrar a capacidade de integrar todas as partes de uma aplicação web, desde o backend até o frontend, garantindo uma experiência de usuário fluída e responsiva em diversos dispositivos.
+
+### Tecnologias Utilizadas
+
+- **Frontend**: React + TypeScript
+- **Backend**: Node.js (Domain Drive Design)
+- **Banco de Dados**: SQL (Building Relational Database)
+- **Deploy**: Vercel
+
+### Objetivos
+
+- Integrar completamente o frontend com o backend, permitindo a comunicação bidirecional de dados.
+- Implementar funcionalidades específicas definidas durante as disciplinas anteriores.
+- Garantir a acessibilidade e a usabilidade do site em diferentes dispositivos e tamanhos de tela.
+- Realizar o deploy do projeto na plataforma Vercel para disponibilização pública.
+
+### Estrutura do Projeto
+
+O projeto está estruturado de forma modular, utilizando componentes React para diferentes partes da interface do usuário. A organização dos arquivos segue as melhores práticas de codificação, garantindo clareza e facilidade de manutenção.
+
+### Funcionalidades Principais
+
+- **Integração com API**: Comunicação eficaz entre o frontend e o backend através de chamadas API.
+- **Gerenciamento de Estado**: Uso eficiente do Context API ou Redux para gerenciar o estado global da aplicação.
+- **Navegação Responsiva**: Implementação de rotas dinâmicas com React Router, adaptando-se a diferentes dispositivos.
+- **Design Responsivo**: Layouts adaptáveis para desktop, tablet e mobile.
+
+### Requisitos
+
+- **Estrutura e Organização do Código**: Código limpo, consistente e modular.
+- **Estilo e Design**: Tema visual coerente e adaptativo.
+- **Funcionalidades Implementadas**: Todas as funcionalidades especificadas no escopo do projeto.
+- **Segurança e Gerenciamento de Dados**: Proteção adequada contra ataques e manipulação de dados.
+
+### Como Executar o Projeto
+
+1. Clone o repositório do projeto.
+2. Instale as dependências executando `npm install` ou `npm i`.
+3. Execute o servidor local com `npm run dev`.
+
+### Contribuição
+
+As contribuições são bem-vindas. Para contribuir, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch com suas alterações.
+3. Faça um pull request.
+
+### Integrantes
+
+Maurício Pereira     - Github: https://github.com/Mauricio-Pereira  
+Luis Otávio Leitão   - Github: https://github.com/Luiz1614  
+Vitor Onofre Ramos   - Github: https://github.com/VitorOnofreRamos
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
