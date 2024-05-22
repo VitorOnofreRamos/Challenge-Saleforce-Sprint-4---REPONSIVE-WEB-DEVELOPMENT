@@ -5,7 +5,7 @@ export default function LoginPage() {
   return (
     <main className="flex-auto">
       <LoginCard
-      img="/logoSalesforce.png"
+      img="/logoSalesForce.png"
       style="login_card"
       />
     </main>
