@@ -8,7 +8,7 @@ const FreeCard = (props: Props) => {
         <section className="flex cartao">
             <div className={props.style}>
              <img src={props.img} alt={props.img} title={props.description}/>
-             <FreeForms text={props.text}/>
+             <FreeForms/>
             </div>
         </section>
         </>

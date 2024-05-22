@@ -8,7 +8,7 @@ interface Props {
   text: string;
 }
 
-const ProductForms: React.FC<Props> = ({ text }) => {
+const ProductForms: React.FC = () => {
   const [productName, setProductName] = useState('');
   const [description, setDescription] = useState('');
   const [price, setPrice] = useState('');
@@ -110,7 +110,7 @@ const ProductForms: React.FC<Props> = ({ text }) => {
 
   return (
     <div className='flex form'>
-      <p>{text}</p>
+      <p>{/*text*/}</p>
 
       <form className='product-form' onSubmit={handleSubmit}>
         <label htmlFor='productName'>Nome do Produto</label>
