@@ -50,7 +50,7 @@ const ProductForms: React.FC = () => {
   // Função para buscar o ID do cliente pelo email
   const fetchClienteIdByEmail = async (email: string) => {
     try {
-      const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/salesforcedirections/cliente/id`, {
+      const response = await axios.get(`http://localhost:8082//salesforcedirections/cliente/id`, {
         params: { email: email }
       });
       console.log("ID do cliente:", response.data);
