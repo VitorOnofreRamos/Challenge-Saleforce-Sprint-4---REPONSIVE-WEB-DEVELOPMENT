@@ -51,7 +51,7 @@ const FreeForms: React.FC = () => {
     console.log('Data de nascimento enviada:', formattedData.dataNascimento); // Log para verificar a data
 
     try {
-      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/salesforcedirections/cliente-endereco`, formattedData, {
+      const response = await axios.post(`http://localhost:8082/salesforcedirections/cliente-endereco`, formattedData, {
         headers: {
           'Content-Type': 'application/json',
         },
