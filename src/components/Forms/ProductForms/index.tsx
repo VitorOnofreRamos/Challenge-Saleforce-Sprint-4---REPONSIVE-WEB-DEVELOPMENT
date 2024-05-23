@@ -75,7 +75,7 @@ const ProductForms: React.FC = () => {
     if (!clienteId) return; // Se não encontrar o cliente, não continua
 
     try {
-      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/salesforcedirections/produto/${clienteId}`, {
+      const response = await axios.post(`http://localhost:8082/salesforcedirections/produto/${clienteId}`, {
         nome: productName,
         descricao: description,
         preco: parseFloat(price),
